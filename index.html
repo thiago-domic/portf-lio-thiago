@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - Programador</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Thiago<span>Web</span></a>
+        <nav class="navbar">
+            <a href="#home">Início</a>
+            <a href="#about">Sobre Mim</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Olá, sou <span>Thiago</span></h1>
+            <h3>Desenvolvedor Web | Designer gráfico</h3>
+            <p>Utilizo a tecnologia a meu favor para criar soluções inovadoras e eficientes. O ChatGPT é meu braço direito na programação, ajudando a otimizar processos e aprimorar minha criatividade.</p>
+            <a href="currículo.pdf" download class="btn">Baixar Currículo</a>
+    
+            <!-- Redes sociais -->
+            <div class="social-icons">
+                <a href="https://www.instagram.com/thiagodomic/" target="_blank" class="social-icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/thiago-domiciano-pires-17103731b/" target="_blank" class="social-icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://wa.me/5512997520625" target="_blank" class="social-icon"><i class='bx bxl-whatsapp' ></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="thiago-perfil.jpg" alt="Minha Foto">
+        </div>
+    </section>
+    
+
+    <section class="about" id="about">
+        <h2>Sobre Mim</h2>
+        <div class="about-content">
+            <p>Sou um programador apaixonado por tecnologia e inovação. Desde que comecei minha jornada, busco constantemente aprimorar minhas habilidades e desenvolver soluções inteligentes para desafios complexos.</p>
+        </div>
+        
+        <!-- Álbum de fotos -->
+        <div class="photo-album">
+            <div class="photo-slide">
+                <img src="curtindo.jpg" alt="Primeiros passos na programação">
+                <p>Meus momentos de curtir proximo a natureza.</p>
+            </div>
+            <div class="photo-slide">
+                <img src="disciplina.jpg" alt="Projeto inovador">
+                <p>Minha apresentação de TCC no ensino médio.</p>
+            </div>
+            <div class="photo-slide">
+                <img src="primeira vez.jpg" alt="Hackathon e aprendizado">
+                <p>Meu primeiro projeto programando.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="skills" id="skills">
+        <h2>Minhas Especialidades</h2>
+        <ul>
+            <li>Desenvolvimento Web</li>
+            <li>JavaScript, HTML e CSS</li>
+            <li>Python e Inteligência Artificial</li>
+            <li>Design gráfico</li>
+        </ul>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>Projetos</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="l-D-fundo-branco.jpg" alt="Projeto 1">
+                <h3>Linea design</h3>
+            </div>
+            <div class="project">
+                <img src="ASCENDA.jpg" alt="Projeto 2">
+                <h3>Ascenda</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Entre em Contato</h2>
+        <form action="https://formsubmit.co/thiagodomicianox17@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Nome" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <textarea name="message" placeholder="Sua mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Thiago - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
